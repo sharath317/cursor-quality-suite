@@ -1,0 +1,35 @@
+{
+  "name": "cursor-quality-suite",
+  "version": "1.0.1",
+  "description": "Code Quality & Testing Commands for Cursor IDE - Test Generation, Mutation Testing, Architecture",
+  "bin": {
+    "cursor-quality-suite": "./bin/cli.js",
+    "quality-suite": "./bin/cli.js"
+  },
+  "main": "./bin/cli.js",
+  "keywords": [
+    "cursor",
+    "cursor-rules",
+    "cursor-commands",
+    "testing",
+    "code-quality",
+    "mutation-testing",
+    "architecture",
+    "dev-productivity",
+    "ai-coding"
+  ],
+  "author": "Sharath Chandra",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharath317/cursor-quality-suite"
+  },
+  "homepage": "https://github.com/sharath317/cursor-quality-suite#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "bin/",
+    "commands/"
+  ]
+}
